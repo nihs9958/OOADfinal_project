@@ -1,0 +1,15 @@
+{
+  "version": "0.0.0",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "serve": "vite preview"
+  },
+  "devDependencies": {
+    "vite": "^2.3.8"
+  },
+  "dependencies": {
+    "lodash": "^4.17.21",
+    "weiqi": "^1.0.0"
+  }
+}
