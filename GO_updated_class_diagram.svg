@@ -1,0 +1,182 @@
+<?xml version="1.0" encoding="utf-8" ?><!DOCTYPE svg><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="852px" height="982px" xmlns:ev="http://www.w3.org/2001/xml-events" style="overflow: hidden; "><g id="viewport-20210714160110061" class="svg-pan-zoom_viewport" transform="matrix(1.104745597854929,0,0,1.104745597854929,61.38027838793857,10.694136153336032)" style="transform: matrix(1.10475, 0, 0, 1.10475, 61.3803, 10.6941);">
+<g id="graph0" class="graph" transform="scale(1 1) rotate(0) translate(4 732)">
+<title>system</title>
+<polygon fill="#ffffff" stroke="transparent" points="-4,4 -4,-732 634.617,-732 634.617,4 -4,4"></polygon>
+<!-- Color -->
+<g id="node1" class="node">
+<title>Color</title>
+<polygon fill="none" stroke="#000000" points="129.199,-.5 129.199,-64.5 224.124,-64.5 224.124,-.5 129.199,-.5"></polygon>
+<text text-anchor="start" x="137.199" y="-51.5" font-family="Helvetica,sans-Serif" font-size="10.00" fill="#000000">&lt;&lt;enumeration&gt;&gt;</text>
+<text text-anchor="middle" x="176.6615" y="-39.5" font-family="Helvetica,sans-Serif" font-size="10.00" fill="#000000">Color</text>
+<polyline fill="none" stroke="#000000" points="129.199,-32.5 224.124,-32.5 "></polyline>
+<text text-anchor="start" x="137.199" y="-19.5" font-family="Helvetica,sans-Serif" font-size="10.00" fill="#000000">black</text>
+<text text-anchor="start" x="137.199" y="-7.5" font-family="Helvetica,sans-Serif" font-size="10.00" fill="#000000">white</text>
+</g>
+<!-- Position -->
+<g id="node2" class="node">
+<title>Position</title>
+<polygon fill="none" stroke="#000000" points="448.737,-6.5 448.737,-58.5 520.586,-58.5 520.586,-6.5 448.737,-6.5"></polygon>
+<text text-anchor="middle" x="484.6615" y="-45.5" font-family="Helvetica,sans-Serif" font-size="10.00" fill="#000000">Position</text>
+<polyline fill="none" stroke="#000000" points="448.737,-38.5 520.586,-38.5 "></polyline>
+<text text-anchor="start" x="456.737" y="-25.5" font-family="Helvetica,sans-Serif" font-size="10.00" fill="#000000">+ x : number</text>
+<text text-anchor="start" x="456.737" y="-13.5" font-family="Helvetica,sans-Serif" font-size="10.00" fill="#000000">+ y : number</text>
+</g>
+<!-- Stone -->
+<g id="node3" class="node">
+<title>Stone</title>
+<polygon fill="none" stroke="#000000" points="167.0605,-101.5 167.0605,-209.5 322.2625,-209.5 322.2625,-101.5 167.0605,-101.5"></polygon>
+<text text-anchor="middle" x="244.6615" y="-196.5" font-family="Helvetica,sans-Serif" font-size="10.00" fill="#000000">Stone</text>
+<polyline fill="none" stroke="#000000" points="167.0605,-189.5 322.2625,-189.5 "></polyline>
+<text text-anchor="start" x="175.0605" y="-176.5" font-family="Helvetica,sans-Serif" font-size="10.00" fill="#000000">+ color : Color</text>
+<text text-anchor="start" x="175.0605" y="-164.5" font-family="Helvetica,sans-Serif" font-size="10.00" fill="#000000">+ group : any</text>
+<text text-anchor="start" x="175.0605" y="-152.5" font-family="Helvetica,sans-Serif" font-size="10.00" fill="#000000">+ liberties : any</text>
+<text text-anchor="start" x="175.0605" y="-140.5" font-family="Helvetica,sans-Serif" font-size="10.00" fill="#000000">+ position : Position</text>
+<polyline fill="none" stroke="#000000" points="167.0605,-133.5 322.2625,-133.5 "></polyline>
+<text text-anchor="start" x="175.0605" y="-120.5" font-family="Helvetica,sans-Serif" font-size="10.00" fill="#000000">+ addLiberty(param : any) : any</text>
+<text text-anchor="start" x="175.0605" y="-108.5" font-family="Helvetica,sans-Serif" font-size="10.00" fill="#000000">+ equals(param : any) : any</text>
+</g>
+<!-- Stone&#45;&gt;Color -->
+<g id="edge1" class="edge">
+<title>Stone-&gt;Color</title>
+<path fill="none" stroke="#000000" stroke-dasharray="5,2" d="M214.6378,-101.1924C209.515,-91.9262 204.2701,-82.4392 199.377,-73.5883"></path>
+<polygon fill="#000000" stroke="#000000" points="194.425,-64.6311 203.2016,-71.2054 196.8442,-69.0069 199.2634,-73.3827 199.2634,-73.3827 199.2634,-73.3827 196.8442,-69.0069 195.3251,-75.5599 194.425,-64.6311 194.425,-64.6311"></polygon>
+</g>
+<!-- Stone&#45;&gt;Position -->
+<g id="edge2" class="edge">
+<title>Stone-&gt;Position</title>
+<path fill="none" stroke="#000000" stroke-dasharray="5,2" d="M322.5826,-115.5654C361.3666,-95.6886 406.8651,-72.3707 439.7667,-55.5086"></path>
+<polygon fill="#000000" stroke="#000000" points="448.6966,-50.932 441.8497,-59.4977 444.2469,-53.2125 439.7973,-55.493 439.7973,-55.493 439.7973,-55.493 444.2469,-53.2125 437.7448,-51.4883 448.6966,-50.932 448.6966,-50.932"></polygon>
+</g>
+<!-- Group -->
+<g id="node4" class="node">
+<title>Group</title>
+<polygon fill="none" stroke="#000000" points="169,-378.5 169,-474.5 320.323,-474.5 320.323,-378.5 169,-378.5"></polygon>
+<text text-anchor="middle" x="244.6615" y="-461.5" font-family="Helvetica,sans-Serif" font-size="10.00" fill="#000000">Group</text>
+<polyline fill="none" stroke="#000000" points="169,-454.5 320.323,-454.5 "></polyline>
+<text text-anchor="start" x="177" y="-441.5" font-family="Helvetica,sans-Serif" font-size="10.00" fill="#000000">+ count : any</text>
+<text text-anchor="start" x="177" y="-429.5" font-family="Helvetica,sans-Serif" font-size="10.00" fill="#000000">+ id : any</text>
+<text text-anchor="start" x="177" y="-417.5" font-family="Helvetica,sans-Serif" font-size="10.00" fill="#000000">+ liberties : number</text>
+<text text-anchor="start" x="177" y="-405.5" font-family="Helvetica,sans-Serif" font-size="10.00" fill="#000000">+ stones : Stone [ ]</text>
+<polyline fill="none" stroke="#000000" points="169,-398.5 320.323,-398.5 "></polyline>
+<text text-anchor="start" x="177" y="-385.5" font-family="Helvetica,sans-Serif" font-size="10.00" fill="#000000">+ addStone(param : any) : any</text>
+</g>
+<!-- Group&#45;&gt;Stone -->
+<g id="edge10" class="edge">
+<title>Group-&gt;Stone</title>
+<path fill="none" stroke="#000000" d="M244.6615,-378.3629C244.6615,-331.0602 244.6615,-258.9951 244.6615,-209.7029"></path>
+<text text-anchor="middle" x="252.1645" y="-212.7029" font-family="Helvetica,sans-Serif" font-size="10.00" fill="#000000">0..*</text>
+</g>
+<!-- Game -->
+<g id="node5" class="node">
+<title>Game</title>
+<polygon fill="none" stroke="#000000" points=".285,-643.5 .285,-727.5 151.038,-727.5 151.038,-643.5 .285,-643.5"></polygon>
+<text text-anchor="middle" x="75.6615" y="-714.5" font-family="Helvetica,sans-Serif" font-size="10.00" fill="#000000">Game</text>
+<polyline fill="none" stroke="#000000" points=".285,-707.5 151.038,-707.5 "></polyline>
+<text text-anchor="start" x="8.285" y="-694.5" font-family="Helvetica,sans-Serif" font-size="10.00" fill="#000000">+ blackPlayer : Player</text>
+<text text-anchor="start" x="8.285" y="-682.5" font-family="Helvetica,sans-Serif" font-size="10.00" fill="#000000">+ board : Board</text>
+<text text-anchor="start" x="8.285" y="-670.5" font-family="Helvetica,sans-Serif" font-size="10.00" fill="#000000">+ whitePlayer : Player</text>
+<polyline fill="none" stroke="#000000" points=".285,-663.5 151.038,-663.5 "></polyline>
+<text text-anchor="start" x="8.285" y="-650.5" font-family="Helvetica,sans-Serif" font-size="10.00" fill="#000000">+ getPlayer(param : any) : any</text>
+</g>
+<!-- Player -->
+<g id="node6" class="node">
+<title>Player</title>
+<polygon fill="none" stroke="#000000" points="0,-390.5 0,-462.5 151.323,-462.5 151.323,-390.5 0,-390.5"></polygon>
+<text text-anchor="middle" x="75.6615" y="-449.5" font-family="Helvetica,sans-Serif" font-size="10.00" fill="#000000">Player</text>
+<polyline fill="none" stroke="#000000" points="0,-442.5 151.323,-442.5 "></polyline>
+<text text-anchor="start" x="8" y="-429.5" font-family="Helvetica,sans-Serif" font-size="10.00" fill="#000000">+ color : Color</text>
+<text text-anchor="start" x="8" y="-417.5" font-family="Helvetica,sans-Serif" font-size="10.00" fill="#000000">+ stones : Stone [ ]</text>
+<polyline fill="none" stroke="#000000" points="0,-410.5 151.323,-410.5 "></polyline>
+<text text-anchor="start" x="8" y="-397.5" font-family="Helvetica,sans-Serif" font-size="10.00" fill="#000000">+ addStone(param : any) : any</text>
+</g>
+<!-- Game&#45;&gt;Player -->
+<g id="edge7" class="edge">
+<title>Game-&gt;Player</title>
+<path fill="none" stroke="#000000" d="M70.5208,-643.3107C68.2854,-593.1413 68.3788,-510.2471 70.8011,-462.8133"></path>
+<text text-anchor="middle" x="73.5806" y="-465.8133" font-family="Helvetica,sans-Serif" font-size="10.00" fill="#000000">1</text>
+</g>
+<!-- Game&#45;&gt;Player -->
+<g id="edge9" class="edge">
+<title>Game-&gt;Player</title>
+<path fill="none" stroke="#000000" d="M80.8022,-643.3107C83.0376,-593.1413 82.9442,-510.2471 80.5219,-462.8133"></path>
+<text text-anchor="middle" x="83.3014" y="-465.8133" font-family="Helvetica,sans-Serif" font-size="10.00" fill="#000000">1</text>
+</g>
+<!-- Board -->
+<g id="node7" class="node">
+<title>Board</title>
+<polygon fill="none" stroke="#000000" points="338.706,-246.5 338.706,-606.5 630.617,-606.5 630.617,-246.5 338.706,-246.5"></polygon>
+<text text-anchor="middle" x="484.6615" y="-593.5" font-family="Helvetica,sans-Serif" font-size="10.00" fill="#000000">Board</text>
+<polyline fill="none" stroke="#000000" points="338.706,-586.5 630.617,-586.5 "></polyline>
+<text text-anchor="start" x="346.706" y="-573.5" font-family="Helvetica,sans-Serif" font-size="10.00" fill="#000000">+ anchorPositions : any</text>
+<text text-anchor="start" x="346.706" y="-561.5" font-family="Helvetica,sans-Serif" font-size="10.00" fill="#000000">+ consecutivePasses : number</text>
+<text text-anchor="start" x="346.706" y="-549.5" font-family="Helvetica,sans-Serif" font-size="10.00" fill="#000000">+ deltas : Position [ ]</text>
+<text text-anchor="start" x="346.706" y="-537.5" font-family="Helvetica,sans-Serif" font-size="10.00" fill="#000000">+ groups : any</text>
+<text text-anchor="start" x="346.706" y="-525.5" font-family="Helvetica,sans-Serif" font-size="10.00" fill="#000000">+ gutter : number</text>
+<text text-anchor="start" x="346.706" y="-513.5" font-family="Helvetica,sans-Serif" font-size="10.00" fill="#000000">+ nextDeltas : Position [ ]</text>
+<text text-anchor="start" x="346.706" y="-501.5" font-family="Helvetica,sans-Serif" font-size="10.00" fill="#000000">+ positions : Position [ ]</text>
+<text text-anchor="start" x="346.706" y="-489.5" font-family="Helvetica,sans-Serif" font-size="10.00" fill="#000000">+ size : number</text>
+<text text-anchor="start" x="346.706" y="-477.5" font-family="Helvetica,sans-Serif" font-size="10.00" fill="#000000">+ stones : Stone [ ]</text>
+<polyline fill="none" stroke="#000000" points="338.706,-470.5 630.617,-470.5 "></polyline>
+<text text-anchor="start" x="346.706" y="-457.5" font-family="Helvetica,sans-Serif" font-size="10.00" fill="#000000">+ addPositions(position 1 : Position, position 2 : Position) : any</text>
+<text text-anchor="start" x="346.706" y="-445.5" font-family="Helvetica,sans-Serif" font-size="10.00" fill="#000000">+ calculateBoardLiberties(param : any) : any</text>
+<text text-anchor="start" x="346.706" y="-433.5" font-family="Helvetica,sans-Serif" font-size="10.00" fill="#000000">+ calculateStoneLiberties(param : any) : any</text>
+<text text-anchor="start" x="346.706" y="-421.5" font-family="Helvetica,sans-Serif" font-size="10.00" fill="#000000">+ captureStone(param : any) : any</text>
+<text text-anchor="start" x="346.706" y="-409.5" font-family="Helvetica,sans-Serif" font-size="10.00" fill="#000000">+ checkAndCapturedStones(param : any) : any</text>
+<text text-anchor="start" x="346.706" y="-397.5" font-family="Helvetica,sans-Serif" font-size="10.00" fill="#000000">+ checkForWinner(param : any) : Color</text>
+<text text-anchor="start" x="346.706" y="-385.5" font-family="Helvetica,sans-Serif" font-size="10.00" fill="#000000">+ checkIfMoveLegal(param : any) : any</text>
+<text text-anchor="start" x="346.706" y="-373.5" font-family="Helvetica,sans-Serif" font-size="10.00" fill="#000000">+ getNextNeighbors(position : Position) : [Position]</text>
+<text text-anchor="start" x="346.706" y="-361.5" font-family="Helvetica,sans-Serif" font-size="10.00" fill="#000000">+ getScore(param : any) : number</text>
+<text text-anchor="start" x="346.706" y="-349.5" font-family="Helvetica,sans-Serif" font-size="10.00" fill="#000000">+ getStoneUI(param : any) : any</text>
+<text text-anchor="start" x="346.706" y="-337.5" font-family="Helvetica,sans-Serif" font-size="10.00" fill="#000000">+ gtNeighbors(position : Position) : [Position]</text>
+<text text-anchor="start" x="346.706" y="-325.5" font-family="Helvetica,sans-Serif" font-size="10.00" fill="#000000">+ hideStonePlacement(position : Position) : any</text>
+<text text-anchor="start" x="346.706" y="-313.5" font-family="Helvetica,sans-Serif" font-size="10.00" fill="#000000">+ placeStone(position : Position) : any</text>
+<text text-anchor="start" x="346.706" y="-301.5" font-family="Helvetica,sans-Serif" font-size="10.00" fill="#000000">+ positionInBounds(position : Position) : boolean</text>
+<text text-anchor="start" x="346.706" y="-289.5" font-family="Helvetica,sans-Serif" font-size="10.00" fill="#000000">+ renderBoard(element : html) : any</text>
+<text text-anchor="start" x="346.706" y="-277.5" font-family="Helvetica,sans-Serif" font-size="10.00" fill="#000000">+ renderCell(position : Position) : any</text>
+<text text-anchor="start" x="346.706" y="-265.5" font-family="Helvetica,sans-Serif" font-size="10.00" fill="#000000">+ showStonePlacement(position : Position) : any</text>
+<text text-anchor="start" x="346.706" y="-253.5" font-family="Helvetica,sans-Serif" font-size="10.00" fill="#000000">+ switchPositions(param : any) : any</text>
+</g>
+<!-- Game&#45;&gt;Board -->
+<g id="edge8" class="edge">
+<title>Game-&gt;Board</title>
+<path fill="none" stroke="#000000" d="M151.2878,-673.6413C204.4772,-662.6656 275.5328,-642.5021 329.6615,-607 332.6837,-605.0178 335.6803,-602.9603 338.6497,-600.8348"></path>
+<text text-anchor="middle" x="335.8702" y="-603.8348" font-family="Helvetica,sans-Serif" font-size="10.00" fill="#000000">1</text>
+</g>
+<!-- Player&#45;&gt;Color -->
+<g id="edge3" class="edge">
+<title>Player-&gt;Color</title>
+<path fill="none" stroke="#000000" stroke-dasharray="5,2" d="M84.4822,-390.3025C99.2109,-330.1346 129.9342,-205.787 157.6615,-101 159.9552,-92.3316 162.4774,-83.0659 164.9136,-74.2402"></path>
+<polygon fill="#000000" stroke="#000000" points="167.6109,-64.518 169.2737,-75.3571 166.2742,-69.336 164.9375,-74.154 164.9375,-74.154 164.9375,-74.154 166.2742,-69.336 160.6013,-72.951 167.6109,-64.518 167.6109,-64.518"></polygon>
+</g>
+<!-- Player&#45;&gt;Stone -->
+<g id="edge11" class="edge">
+<title>Player-&gt;Stone</title>
+<path fill="none" stroke="#000000" d="M88.497,-390.471C102.8253,-352.7098 128.1882,-292.5199 159.6615,-246 168.1165,-233.5028 178.303,-221.0735 188.6419,-209.6093"></path>
+<text text-anchor="middle" x="181.1389" y="-212.6093" font-family="Helvetica,sans-Serif" font-size="10.00" fill="#000000">0..*</text>
+</g>
+<!-- Board&#45;&gt;Position -->
+<g id="edge4" class="edge">
+<title>Board-&gt;Position</title>
+<path fill="none" stroke="#000000" stroke-dasharray="5,2" d="M471.2048,-246.2194C470.8564,-179.1149 472.61,-109.4044 476.4656,-68.534"></path>
+<polygon fill="#000000" stroke="#000000" points="477.5203,-58.5372 480.9462,-68.9542 476.9957,-63.5096 476.471,-68.482 476.471,-68.482 476.471,-68.482 476.9957,-63.5096 471.9959,-68.0098 477.5203,-58.5372 477.5203,-58.5372"></polygon>
+</g>
+<!-- Board&#45;&gt;Position -->
+<g id="edge5" class="edge">
+<title>Board-&gt;Position</title>
+<path fill="none" stroke="#000000" stroke-dasharray="5,2" d="M484.6615,-246.2194C484.6615,-179.2574 484.6615,-109.7004 484.6615,-68.7947"></path>
+<polygon fill="#000000" stroke="#000000" points="484.6615,-58.5372 489.1616,-68.5372 484.6615,-63.5372 484.6616,-68.5372 484.6616,-68.5372 484.6616,-68.5372 484.6615,-63.5372 480.1616,-68.5372 484.6615,-58.5372 484.6615,-58.5372"></polygon>
+</g>
+<!-- Board&#45;&gt;Position -->
+<g id="edge6" class="edge">
+<title>Board-&gt;Position</title>
+<path fill="none" stroke="#000000" stroke-dasharray="5,2" d="M498.1182,-246.2194C498.4666,-179.1149 496.713,-109.4044 492.8574,-68.534"></path>
+<polygon fill="#000000" stroke="#000000" points="491.8027,-58.5372 497.3271,-68.0098 492.3273,-63.5096 492.852,-68.482 492.852,-68.482 492.852,-68.482 492.3273,-63.5096 488.3768,-68.9542 491.8027,-58.5372 491.8027,-58.5372"></polygon>
+</g>
+<!-- Board&#45;&gt;Stone -->
+<g id="edge12" class="edge">
+<title>Board-&gt;Stone</title>
+<path fill="none" stroke="#000000" d="M338.418,-255.7882C335.4807,-252.4923 332.5596,-249.2266 329.6615,-246 319.0029,-234.133 307.404,-221.5647 296.2989,-209.6921"></path>
+<text text-anchor="middle" x="288.7959" y="-212.6921" font-family="Helvetica,sans-Serif" font-size="10.00" fill="#000000">0..*</text>
+</g>
+</g>
+</g></svg>
